@@ -13,9 +13,8 @@
         android:textColor="#449303"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="170dp"
+        android:layout_marginLeft="100dp"
         android:text="Mon 9th July 2018 8:15AM"
-        android:layout_marginStart="170dp"
         android:layout_marginTop="10dp"
         />
 
