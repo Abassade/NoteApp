@@ -51,6 +51,8 @@ public class AddActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+        // To navigate back to the root
         if (item.getItemId()==android.R.id.home){
 
             NavUtils.navigateUpFromSameTask(this);
