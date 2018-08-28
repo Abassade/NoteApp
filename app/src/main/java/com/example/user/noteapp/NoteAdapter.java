@@ -11,9 +11,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by USER on 03-Aug-18.
- */
 
 public class NoteAdapter extends ArrayAdapter<Note> {
     public NoteAdapter(@NonNull Context context, int resource, ArrayList<Note> objects) {

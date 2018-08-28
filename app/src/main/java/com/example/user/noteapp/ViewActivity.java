@@ -1,6 +1,7 @@
 package com.example.user.noteapp;
 
 import android.content.Intent;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -48,6 +49,11 @@ public class ViewActivity extends AppCompatActivity {
             intent.putExtra("file_me", fName);
             startActivity(intent);
             finish();
+
+        }
+        else if (item.getItemId()==android.R.id.home){
+
+            NavUtils.navigateUpFromSameTask(this);
 
         }
 
