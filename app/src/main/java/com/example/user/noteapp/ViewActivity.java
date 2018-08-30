@@ -57,8 +57,6 @@ public class ViewActivity extends AppCompatActivity {
 
         }
 
-
-
         return true;
     }
 }
